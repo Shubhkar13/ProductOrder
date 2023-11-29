@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8fcd4c76-00b1-4159-9bd2-e8922d77c7bb" ItemType="Solution" CreatedBy="shubhkar" Created="202311290717" GingerVersion="23.5.1.0" Version="2" LastUpdateBy="shubhkar" LastUpdate="202311290717" />
+<GingerRepositoryItem><Header ItemGuid="8fcd4c76-00b1-4159-9bd2-e8922d77c7bb" ItemType="Solution" CreatedBy="shubhkar" Created="202311290717" GingerVersion="23.5.1.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202311291004" />
 <Solution EncryptedValidationString="JVMYmLmaE+3KIBbht70MSQ==" Guid="8fcd4c76-00b1-4159-9bd2-e8922d77c7bb" Name="OTOMA123" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="f5070639-ec44-46d7-baac-b42fedf9f9f8" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+<ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="807f9029-8d76-4f9a-85d6-82c4dc4e5dcb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
 </ApplicationPlatforms>
 
 <ApplitoolsConfiguration>

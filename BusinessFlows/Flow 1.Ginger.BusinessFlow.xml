@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202311290717" GingerVersion="23.5.1.0" Version="28" LastUpdateBy="shubhkar" LastUpdate="202311290958" />
+<GingerRepositoryItem><Header ItemGuid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202311290717" GingerVersion="23.5.1.0" Version="32" LastUpdateBy="shubhkar" LastUpdate="202311291005" />
 <BusinessFlow Guid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group" ActivityName="Login" Guid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ParentGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" Type="Link" />
@@ -11,19 +11,20 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="30b9e377-f09b-4e9a-b7c6-8c23550f4ac7" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ActivityName="Login" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2c815c9d-3e10-4e96-bc3e-c07feab36b36" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8b818fb6-2f25-47ce-9744-768663df74c7" ActivityName="Add Product to cart" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="fcc8c087-7d01-400a-afa7-03666c5aebb2" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ActivityName="Go to the cart" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ee683f01-ea8e-4989-9d86-c05b9447ac28" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b795b594-69e2-4aec-872a-ff937f301f79" ActivityName="Close Agent" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b87910be-1f4c-455d-908e-4bca20daed2b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ActivityName="Login" ActivityParentGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" Guid="2c815c9d-3e10-4e96-bc3e-c07feab36b36" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8b818fb6-2f25-47ce-9744-768663df74c7" ActivityName="Add Product to cart" ActivityParentGuid="8b818fb6-2f25-47ce-9744-768663df74c7" Guid="fcc8c087-7d01-400a-afa7-03666c5aebb2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ActivityName="Go to the cart" ActivityParentGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" Guid="ee683f01-ea8e-4989-9d86-c05b9447ac28" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b795b594-69e2-4aec-872a-ff937f301f79" ActivityName="Close Agent" ActivityParentGuid="b795b594-69e2-4aec-872a-ff937f301f79" Guid="b87910be-1f4c-455d-908e-4bca20daed2b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
 <TargetApplication AppName="MyWebApp" Guid="c4fd8e39-333e-43c2-a420-61eef5f59cdc" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="f5070639-ec44-46d7-baac-b42fedf9f9f8" />
+<TargetApplication AppName="MyWebServicesApp" Guid="8a280a0f-ea49-478d-9abf-7aff6a251676" ParentGuid="807f9029-8d76-4f9a-85d6-82c4dc4e5dcb" />
 </TargetApplications>
 
 <Variables>
-<VariableString Guid="e93ace4a-5b3e-4e16-a1b3-2f927abc8f1c" InitialStringValue="secret_sauce" MappedOutputType="None" Name="Password" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="e93ace4a-5b3e-4e16-a1b3-2f927abc8f1c" InitialStringValue="secret_sauce" MappedOutputType="None" Name="Password" ParentGuid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" ParentName="Flow 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>
