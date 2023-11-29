@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202311290717" GingerVersion="23.5.1.0" Version="10" LastUpdateBy="shubhkar" LastUpdate="202311290729" />
+<BusinessFlow Guid="8ae3c8f1-c544-4e8c-bc78-b15ffc317679" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="c0298545-a138-45c6-a79b-bdd21a5369f6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="dd3d2d51-d782-4912-81f9-56f84edc56dd" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="c5b10b0c-1db9-425b-8f47-2526956c37dd" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.saucedemo.com" />
+<ActInputValue Guid="8b8c4ebf-0119-4756-84fd-67aa051b21c8" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="34fd1131-2b45-4d31-be8c-f39e46200afa" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="c7e5536e-cbc2-479e-9995-702a05f181e6" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="7ffcc69d-a8d4-4ebf-82dc-ce3165ea9826" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="5d6f7cb5-e79f-4e35-bb2c-68d4a4a1f21e" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="07d7b947-83c4-4c2f-94a5-4f883a0322a9" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="791065de-c070-4fb8-a3c2-9743645d27b8" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="Username" Guid="1d01efd7-985d-4c33-b4e6-a229ba9f14fb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="86f4ea96-1e6e-48d1-945a-555a009a8086" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="38bf3c0e-e6a3-4199-87d9-73e9cd9a1877" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="1d6cb021-9982-4463-8ec9-d8dfb69a9970" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="user-name" />
+<ActInputValue Guid="3fc78f80-cb0b-472b-9311-ebda788d2f8f" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="44baf3c2-2b43-4107-a444-beaa678f1633" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="standard_user" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Password" Guid="c0c1df18-5035-4c5b-9436-569274c96d70" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6803a082-78ee-4b32-aea9-2d638b354d7b" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="7155b621-4fd3-4f24-861d-d3b3047e05ac" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="3827e24b-68dd-4939-bf8c-8258d07a0019" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="password" />
+<ActInputValue Guid="a045f882-7568-4ad2-9020-cd29f5fef598" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="6b579cf6-6e71-4fcb-b4c7-af6022d6ed28" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="secret_sauce" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click : Button - Button" Guid="6bec496d-ac0c-439b-9918-bc9b7b8b18d4" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c5fd1a5e-7f4a-4995-ae48-b3291d6c77d1" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="bcae5538-2c8b-4f0b-88cc-6f9c77811aa1" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="cac10b6d-7ddf-4bc5-a989-d1e2ada5cbe0" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="login-button" />
+<ActInputValue Guid="4bab5de7-f756-49b6-b08d-92e25b909a62" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="878adf20-16ee-4de6-8687-5af848f3b68b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="24d7092c-533b-41d6-a842-6d33c6cf7b45" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Add Product to cart" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="8b818fb6-2f25-47ce-9744-768663df74c7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Product 1" Guid="e761e0c5-5092-4399-9ff6-f25ab1b8154c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8f2fc752-b9bd-4fb3-afb9-09efe00f7f84" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="9566b9f9-83b6-4281-84ab-55dd98f6cf59" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="cd080dd6-97a4-45c1-b136-332f09f8e3e7" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-backpack" />
+<ActInputValue Guid="460bd827-3625-4f86-8e1a-d13f7b8457e5" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="4cc8fceb-9ae2-472a-9976-64ed808b55b5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0e8ecb18-7b5b-4099-800b-f86f8b1a9742" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Product 2" Guid="fc0dd260-5f1a-4b1e-9594-c5bafb5c844d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="16e307ed-9cbf-467a-b847-5b1320750455" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="d764ce23-2723-45e3-8c22-a8e55fddc011" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="02c4df7e-0f57-4946-aabc-40e5651d10b0" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-fleece-jacket" />
+<ActInputValue Guid="482fe5f3-9f31-4f23-99d0-240251413ef9" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="329069c9-7685-4775-ad70-994a7bc8432f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="21f20efc-d122-47be-b011-87fd8a0c669f" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Product 3" Guid="0750bbb8-b75e-44b5-8a97-983cc6ec6c11" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b81ddd1c-4b10-4bad-89ce-33f0744ba1d5" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="8afd97b6-b1df-4786-81f9-98f994c694db" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="bc07853b-b529-4533-94f6-e0d810cfff85" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-bolt-t-shirt" />
+<ActInputValue Guid="092c8ec3-957d-412a-a8d7-a9619653a28f" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="59414ceb-c3ec-41b4-81c4-433d4a88cc51" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="205ff172-51c4-4abb-a7f5-855feaa246ab" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Go to the cart" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Click on cart" Guid="fdb05266-90c2-497e-aa1c-a72e996c99b8" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6e238cde-9e36-48d2-949b-cc43bf328784" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="b91f1c4b-44c5-40fb-89a3-8ab44c2057b9" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="9a6dad78-31e4-4194-8d4f-238d2de2be87" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]" />
+<ActInputValue Guid="f07d2b83-093e-40d5-b0dd-cd1716d68b35" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ActInputValue Guid="0adcc0f8-67c7-410f-acad-60f43e1cb054" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="42a4b625-1c53-4fa1-be6b-4a3092a100c7" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click on checkout button" Guid="d33210d3-bc88-4ad5-b51c-98aee5184e08" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="fa6c1d7e-6431-45f6-9b4b-c115e1d46c9e" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="f33ea37b-e0ec-4e99-83a6-ab42f0ac204e" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="1c18b9e7-ec90-4f7e-8f9c-ed7188ee12a6" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="checkout" />
+<ActInputValue Guid="ccab2c09-56db-41ac-9a2e-ed38ed3df24c" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="3b8de23d-1fa9-4afa-9bc7-e6b45d9385b2" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="2b884f44-d40f-47e9-bc44-e52b634a5113" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Close Agent" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b795b594-69e2-4aec-872a-ff937f301f79" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActAgentManipulation Active="True" Description="Agent Manipulation Action" Guid="b735102a-efb7-49f7-a985-e6e5341731bb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6f79589b-d539-49e2-8ef2-c6d5d238dae2" Param="AgentManipulationActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CloseAgent" />
+</InputValues>
+</ActAgentManipulation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="30b9e377-f09b-4e9a-b7c6-8c23550f4ac7" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ActivityName="Login" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2c815c9d-3e10-4e96-bc3e-c07feab36b36" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8b818fb6-2f25-47ce-9744-768663df74c7" ActivityName="Add Product to cart" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="fcc8c087-7d01-400a-afa7-03666c5aebb2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ActivityName="Go to the cart" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ee683f01-ea8e-4989-9d86-c05b9447ac28" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b795b594-69e2-4aec-872a-ff937f301f79" ActivityName="Close Agent" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b87910be-1f4c-455d-908e-4bca20daed2b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="c4fd8e39-333e-43c2-a420-61eef5f59cdc" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="f5070639-ec44-46d7-baac-b42fedf9f9f8" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
