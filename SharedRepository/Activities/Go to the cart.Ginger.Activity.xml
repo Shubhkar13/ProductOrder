@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ItemType="Activity" CreatedBy="shubhkar" Created="202311290955" GingerVersion="23.5.1.0" Version="4" LastUpdateBy="shubhkar" LastUpdate="202311290956" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Go to the cart" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="2560bb61-c427-4a14-84b5-0e2e5e358d84" ParentGuid="2560bb61-c427-4a14-84b5-0e2e5e358d84" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Click on cart" Guid="9ed0c821-63d8-4ee8-a524-05b916723949" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a7444ebb-0db6-4a37-82c7-b6f2b49ff0fa" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="98a4670b-bdf4-4213-b1e1-b96a29a6ee2c" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="d4a47ccc-5ce9-451b-8c40-bfff1af20649" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]" />
+<ActInputValue Guid="73e52483-93e1-4b21-8b75-f422e1f0844d" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HyperLink" />
+<ActInputValue Guid="31c1ded3-fa62-4097-92a3-88e464f57514" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="fa3e904d-7fe4-4dc5-b1b6-85eb77bf1bbc" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="6868e3b6-53e3-46b0-9dc6-056668ff8748" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="bf18f625-dc39-4648-9756-cca46d9a764f" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="550b3114-acf1-4b6d-b380-6a305a1a0bea" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="ac6cf050-307a-4586-8e16-079fd6cb2f76" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click on checkout button" Guid="0097dcb5-bb22-4670-b96b-137eeca3bedb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="7f200468-078c-42c3-aca7-8ce3ca380249" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="977b8c7e-2279-4cb9-90e9-e488fec0041c" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="307b43a2-41ec-4061-b6ae-69d25245f3a1" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="checkout" />
+<ActInputValue Guid="408b0937-706c-4806-803a-315487ead63d" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="781d342f-fd9c-456a-bc75-87adcc23d394" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4ec640ca-2e92-4f79-9833-15814b1d7e03" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="57c67b86-f95f-41b3-87f2-4384789df483" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="8c49491f-5f9a-44ef-a198-18492cbe441a" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="05df188a-5413-4935-8327-23d52c805fea" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="55dd94be-f4a9-4abf-89fd-2dbd149c6ba7" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ItemType="Activity" CreatedBy="shubhkar" Created="202311290955" GingerVersion="23.5.1.0" Version="4" LastUpdateBy="shubhkar" LastUpdate="202311290956" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" ParentGuid="e0fe8d61-900d-47a3-8edc-bfcc46e8f09c" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="caccf2eb-af32-46c0-bc53-5782cc263f06" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="cf2f8c96-86d1-4744-bf90-40e9559b61fa" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="22604ed8-bac7-472a-af84-512b80cce0ce" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.saucedemo.com" />
+<ActInputValue Guid="bca2c930-1e2d-4c3e-83eb-1c62f0235824" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="89336b7f-ff11-49ea-b5cb-d9a8d7bb0c30" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="80368549-1226-48fb-bded-c13d1cd1093a" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="134d0500-59ee-4082-a8d3-341ccc3a3b2e" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="a660e08e-d4b2-485d-85c9-d8c6c85885c5" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="786c6573-c11e-4609-bed9-20be6c3c3e3e" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="25ff8a68-5ae2-49f2-8498-9d41b6d0e27f" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a054a4e2-f405-4757-8f39-8d2c56854eaa" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="cfbb92bb-abcf-4d4d-992e-d344a99c8c19" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b9dfeece-e701-4c99-8b80-ecd08c9061e4" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="Username" Guid="d3befb5c-3c09-4a20-b260-774f352291e6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="817ea35b-5946-4fcc-8164-b710644a2fde" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="c62a3938-0a1d-4bad-b484-bf5650929dcc" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="4465ba04-9462-49ea-aa41-1f52a009e85f" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="user-name" />
+<ActInputValue Guid="0b55acd5-428d-494e-bde9-20c61464110b" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="53576cbf-e112-4d30-8ddc-af91478899aa" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=Uname}" />
+<ActInputValue Guid="d549d9d6-b1fd-4290-bba5-27fc18f0dd26" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="b852df03-0a87-4d2a-92d5-4d51886bedc4" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="3204e4bb-80ba-4d1f-b88f-ba0d4913c338" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="9d1b1387-bd8b-4204-af96-71f1e90508cb" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Password" Guid="c705c657-4383-4716-b82d-4196496ddc01" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6676b652-8a1f-471a-9640-d10d3f332dcb" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="231d6712-5e23-4e2e-af49-4de7751a5ab5" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="b7b4c2ca-6d0f-48e7-8a48-6c10c139ab6f" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="password" />
+<ActInputValue Guid="eb6c6b2e-680f-40cb-ad71-6659567066e5" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="b6ccc6f8-ebb1-430d-8113-8940294161ff" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=Password}" />
+<ActInputValue Guid="0eb3ae8e-fbca-4633-b3f7-52c850c9306e" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="34c322eb-0c50-45b9-89e3-1ad1467f977f" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="515f84d5-f9f1-4a15-a5b9-9a9b288e3d34" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="0de0cbaf-2e3f-4128-95a5-c8daeedc4cc5" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click : Button - Button" Guid="f991a03a-34d3-4371-8f86-595fb6e9bf3d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8d6b65dc-eb31-41e6-9893-6de1d14276c4" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="4b99a576-c592-40bf-85c5-713a71109cae" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="16e580d8-7e14-4098-8c55-815336a9c9d9" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="login-button" />
+<ActInputValue Guid="aa7b82b7-de2b-4ac9-b282-07337d08adda" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="f5eee57e-ced2-4667-9750-74cef3c66c50" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="91a04eeb-d271-40b9-9000-3d7463f96f72" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="d4fc5fd5-2ed4-4a3a-95a1-8ea5f90273aa" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="eac16232-28d3-4fe7-b845-81b16de764ab" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="f1b84f85-ec95-459f-95a0-2adbce29a441" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="cbcace09-9cb1-4957-8869-438c9c91c4a2" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+
+<Variables>
+<VariableString Guid="387d35a8-e7de-45a3-b45f-b70a60a67f35" InitialStringValue="standard_user" MappedOutputType="None" Name="Uname" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</Activity></GingerRepositoryItem>

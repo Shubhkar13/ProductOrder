@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8b818fb6-2f25-47ce-9744-768663df74c7" ItemType="Activity" CreatedBy="shubhkar" Created="202311290953" GingerVersion="23.5.1.0" Version="1" LastUpdateBy="shubhkar" LastUpdate="202311290953" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Add Product to cart" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="8b818fb6-2f25-47ce-9744-768663df74c7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Product 1" Guid="e761e0c5-5092-4399-9ff6-f25ab1b8154c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8f2fc752-b9bd-4fb3-afb9-09efe00f7f84" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="9566b9f9-83b6-4281-84ab-55dd98f6cf59" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="cd080dd6-97a4-45c1-b136-332f09f8e3e7" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-backpack" />
+<ActInputValue Guid="460bd827-3625-4f86-8e1a-d13f7b8457e5" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="4cc8fceb-9ae2-472a-9976-64ed808b55b5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0e8ecb18-7b5b-4099-800b-f86f8b1a9742" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="f481d2b5-d7c2-4931-9ccf-7c1bca9518e8" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="274d972e-6792-45b8-b2c7-d21af5b95058" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="c794049e-6e7f-4904-8184-e50614e88372" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="66a80466-cb1c-4e90-824d-ddc2dd737f7c" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Product 2" Guid="fc0dd260-5f1a-4b1e-9594-c5bafb5c844d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="16e307ed-9cbf-467a-b847-5b1320750455" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="d764ce23-2723-45e3-8c22-a8e55fddc011" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="02c4df7e-0f57-4946-aabc-40e5651d10b0" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-fleece-jacket" />
+<ActInputValue Guid="482fe5f3-9f31-4f23-99d0-240251413ef9" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="329069c9-7685-4775-ad70-994a7bc8432f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="21f20efc-d122-47be-b011-87fd8a0c669f" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="bf9d1646-2c1f-478e-9a32-11d2edf9aa32" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="68640ac6-d3cd-4340-a689-c001a20aff48" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="b3596b5b-648d-48be-a433-bf4481c75723" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="3e7b1b6e-e262-47db-b44d-5ab04b44d7ea" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Product 3" Guid="0750bbb8-b75e-44b5-8a97-983cc6ec6c11" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b81ddd1c-4b10-4bad-89ce-33f0744ba1d5" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="8afd97b6-b1df-4786-81f9-98f994c694db" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="bc07853b-b529-4533-94f6-e0d810cfff85" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="add-to-cart-sauce-labs-bolt-t-shirt" />
+<ActInputValue Guid="092c8ec3-957d-412a-a8d7-a9619653a28f" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="59414ceb-c3ec-41b4-81c4-433d4a88cc51" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="205ff172-51c4-4abb-a7f5-855feaa246ab" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c11de5d7-ca0e-49ca-abef-6ffe2ab94f44" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="9c4ea0bc-a411-4af8-b893-0fe1d8f79a04" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="7bc312bf-987b-4079-bb0b-93918500042f" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="818876ec-43d0-4d9c-990b-df7865eaef2a" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>

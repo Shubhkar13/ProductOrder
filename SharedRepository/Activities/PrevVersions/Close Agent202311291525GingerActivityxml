@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b795b594-69e2-4aec-872a-ff937f301f79" ItemType="Activity" CreatedBy="shubhkar" Created="202311290953" GingerVersion="23.5.1.0" Version="1" LastUpdateBy="shubhkar" LastUpdate="202311290953" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Close Agent" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b795b594-69e2-4aec-872a-ff937f301f79" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActAgentManipulation Active="True" Description="Agent Manipulation Action" Guid="b735102a-efb7-49f7-a985-e6e5341731bb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6f79589b-d539-49e2-8ef2-c6d5d238dae2" Param="AgentManipulationActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CloseAgent" />
+</InputValues>
+</ActAgentManipulation>
+</Acts>
+</Activity></GingerRepositoryItem>
