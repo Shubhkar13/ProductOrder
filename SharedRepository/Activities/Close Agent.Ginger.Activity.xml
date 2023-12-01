@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b795b594-69e2-4aec-872a-ff937f301f79" ItemType="Activity" CreatedBy="shubhkar" Created="202311290955" GingerVersion="23.5.1.0" Version="4" LastUpdateBy="shubhkar" LastUpdate="202311290956" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Close Agent" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b795b594-69e2-4aec-872a-ff937f301f79" ParentGuid="b795b594-69e2-4aec-872a-ff937f301f79" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="b795b594-69e2-4aec-872a-ff937f301f79" ItemType="Activity" CreatedBy="shubhkar" Created="202312010531" GingerVersion="23.5.1.0" Version="1" LastUpdateBy="shubhkar" LastUpdate="202312010531" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Close Agent" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b795b594-69e2-4aec-872a-ff937f301f79" ParentGuid="b795b594-69e2-4aec-872a-ff937f301f79" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActAgentManipulation Active="True" Description="Agent Manipulation Action" Guid="4fcb65b8-742c-4c6f-9e4e-a8e8df5783ff" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActAgentManipulation Active="True" Description="Agent Manipulation Action" Guid="5f0989e4-4a2f-4410-a7c9-e8c7f0727e2d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="db5411d6-76cd-409e-8d83-41d161e82fbb" Param="AgentManipulationActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CloseAgent" />
+<ActInputValue Guid="86348692-6f7c-4936-a3c7-76eed45e7b6b" Param="AgentManipulationActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CloseAgent" />
 </InputValues>
 </ActAgentManipulation>
 </Acts>
